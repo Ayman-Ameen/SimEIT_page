@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="SimEIT: A scalable framework for deterministic simulation and generation of synthetic EIT data. Enables high-throughput creation of diverse geometries and conductivity maps using parallelized finite element simulations.">
+  <meta property="og:title" content="SimEIT: A Scalable Simulation Framework for Generating Large-Scale Electrical Impedance Tomography Datasets"/>
+  <meta property="og:description" content="SimEIT: A scalable framework for deterministic simulation and generation of synthetic EIT data. Enables high-throughput creation of diverse geometries and conductivity maps using parallelized finite element simulations."/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="SimEIT: A Scalable Simulation Framework for Generating Large-Scale Electrical Impedance Tomography Datasets">
+  <meta name="twitter:description" content="SimEIT: A scalable framework for deterministic simulation and generation of synthetic EIT data. Enables high-throughput creation of diverse geometries and conductivity maps using parallelized finite element simulations.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="EIT, Dataset Generation, Inverse Problems, Electrical Impedance Tomography, Deep Learning, Simulation Framework">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SimEIT: A Scalable Simulation Framework for Generating Large-Scale Electrical Impedance Tomography Datasets</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SimEIT: A Scalable Simulation Framework for Generating Large-Scale Electrical Impedance Tomography Datasets</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="#" target="_blank">Ayman A. Ameen</a><sup>*</sup>,</span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Franziska Mathis-Ullrich</a><sup>*</sup>,</span>
+                  <span class="author-block">
+                    <a href="#" target="_blank">Bernhard Kainz</a><sup>*†</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>*</sup>Friedrich-Alexander University Erlangen-Nürnberg<br><sup>†</sup>Imperial College London</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                      <a href="static/pdfs/paper.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper(Comming Soon)</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Ayman-Ameen/SimEIT" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code(Comming Soon)</span>
+                  </a>
+                </span>
+                <!-- Hugging Face Dataset link -->
+                  <span class="link-block">
+                  <a href="https://huggingface.co/datasets/AymanAmeen/SimEIT-dataset" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+                </span>
+                <!-- Demo link -->
+                <span class="link-block">
+                  <a href="https://huggingface.co/spaces/AymanAmeen/SimEIT-demo" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-desktop"></i>
+                  </span>
+                  <span>Demo</span>
+                  </a>
+                </span>
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv(Comming Soon)</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Electrical Impedance Tomography (EIT) offers advantages over conventional imaging methods, such as X-ray and MRI, but suffers from an ill-posed inverse problem. Deep learning can alleviate this challenge, yet progress is limited by the lack of large, diverse, and reproducible datasets. We present <strong>SimEIT</strong>, a scalable framework for deterministic simulation and generation of synthetic EIT data. SimEIT enables high-throughput creation of diverse geometries and conductivity maps using parallelized finite element simulations, reproducible seeding, and automated validation. The framework provides multi-resolution, AI-ready HDF5 outputs with PyTorch integration. Demonstrated on two datasets exceeding 100,000 samples, SimEIT bridges the gap between physical simulation and AI training, supporting reliable benchmarking and development of advanced reconstruction algorithms.
+          </p>
+          <!-- <p><strong>Keywords:</strong> EIT, Dataset Generation, Inverse Problems</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Introduction section -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Electrical impedance tomography (EIT) utilizes electrode arrays to inject electrical currents and measure boundary voltages through diverse stimulation patterns across a region of interest (ROI), reconstructing spatial conductivity distributions to characterize internal material arrangements. EIT offers advantages over radiation-based techniques (e.g., X-ray, MRI) through non-invasiveness, low cost-effectiveness, minimal power requirements, and rapid response, enabling medical applications such as breast cancer detection, stroke diagnosis, lung function monitoring, alongside industrial process monitoring.
+          </p>
+          <p>
+            Despite progress, EIT research is hampered by a lack of scalable, adaptable, and open-source datasets. This scarcity of diverse training data obstructs the development of robust AI-driven reconstruction algorithms needed to solve EIT's ill-posed inverse problem. To address this critical gap, we introduce <strong>SimEIT</strong>: an open-source, parallelized framework for generating large-scale, physically consistent EIT datasets. Built on the validated EIDORS engine, SimEIT integrates flexibility, reproducibility, and scalability through several key innovations:
+          </p>
+          <ul>
+            <li><strong>Modular Framework & Parallel Processing:</strong> Flexible architecture with interchangeable components enables parallel execution in geometry generation and simulation stages, overcoming scalability bottlenecks.</li>
+            <li><strong>Geometry-Boundary Flexibility:</strong> Parametric customization of inclusion shapes (e.g., circles, ellipses, triangles), conductivity distributions, electrode placements, and domain boundaries (e.g., spherical substrates).</li>
+            <li><strong>Reproducible High-Throughput Synthesis:</strong> Deterministic seed control ensures batch-wise traceability for large-scale, physically accurate data generation.</li>
+            <li><strong>AI-Ready Data Optimization:</strong> Multi-resolution ground-truth maps (e.g., 256 × 256 to 32 × 32), differential outputs, and metadata-linked HDF5 storage with PyTorch integration.</li>
+            <li><strong>EIDORS-Based Physical Fidelity:</strong> Maintains physical consistency while supporting MATLAB and open-source Octave environments.</li>
+            <li><strong>Open Ecosystem & Visualization:</strong> Public codebase, Hugging Face demos, configurable noise models, and visualization tools enable community-driven expansion and validation.</li>
+          </ul>
+          <p>
+            By democratizing large-scale EIT data synthesis, SimEIT accelerates inverse solver development, enables systematic study of ill-posedness origins, and establishes a foundation for reproducible AI advancements in the field, launching the realization of the EIT promise across medical, industrial, and scientific domains.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End introduction section -->
+
+<!-- Framework Architecture Overview section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Framework Architecture Overview</h2>
+        <div class="content has-text-justified">
+            <figure class="image">
+            <img src="static/images/Frame_work_overview.png" alt="Overview of the dataset generation architecture" style="width: 80%; margin: 0 auto; display: block;"/>
+            <figcaption class="has-text-centered is-size-7 mt-2">
+              <strong>Figure:</strong> Overview of the dataset generation architecture.
+            </figcaption>
+            </figure>
+            
+          <p>
+            The proposed framework employs a modular architecture comprising three coordinated phases: <strong>initialization, core framework execution, and post-processing</strong>, as shown in the figure above. The initialization phase establishes deterministic reproducibility through batch-specific seed initialization, base mesh configuration, and measurement pattern (e.g., adjacent/opposite current injection), while resolving baseline boundary conditions via cached the base forward solution. Subsequent framework stages integrate parallelized geometry generation and finite element simulation components, leveraging adaptations of the established EIDORS forward solver. Post-processing implements multi-scale data transformation and validation protocols, ensuring physical consistency while optimizing outputs for machine learning integration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Framework Architecture Overview section -->
+
+<!-- Generated Datasets section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Generated Datasets</h2>
+        <div class="content has-text-justified">
+          <p>
+            This section details the validation of our framework through generating two large-scale synthetic EIT datasets using an adjacent current injection pattern. It describes the efficient fixed-meshing strategy enabling high-throughput simulation, presents the characteristics and statistical distributions of the dataset, showcases sample diversity, and outlines framework features like multi-resolution support and PyTorch integration, addressing the critical need for scalable, open-source EIT data. The datasets were generated using MATLAB 2020b on a high-performance computing (HPC) cluster with distributed processing via SLURM. Both datasets are publicly available to support reproducible EIT research.
+          </p>
+
+          <h3 class="title is-4"><strong>Dataset 1: Mixed Shapes with Diverse Geometries</strong></h3>
+          
+          <p>
+            The first dataset contains 100,000 samples featuring four distinct inclusion shapes: triangles, rectangles, circles, and ellipses. Each shape category exhibits configurable geometric degrees of freedom (DOF), such as position, size, and aspect ratio. For example, circles are defined by center coordinates <em>(x,y)</em> and radius (3 DOF), while ellipses require additional axes and rotation parameters (5 DOF). The maximum per-shape DOF was capped at 7 to maximize shape diversity while maintaining computational tractability.
+          </p>
+
+          <figure class="image">
+            <img src="static/images/Statistics.png" alt="Statistical distributions of key parameters in the first generated EIT dataset"/>
+            <figcaption class="has-text-centered is-size-7 mt-2">
+              <strong>Figure:</strong> Statistical distributions of key parameters in the first generated EIT dataset. (a) Number of objects. (b) Type of object geometries. (c) Logarithmic conductivity values of inclusions. (d) Fractional coverage area of objects within the domain.
+            </figcaption>
+          </figure>
+
+          <p>
+            The statistical properties of the generated dataset confirm its controlled diversity. The number of inclusions per sample is uniformly distributed from one to four (a), ensuring balanced complexity. The distribution of shapes is varied, with rectangles and circles being most frequent (b). Inclusion conductivities follow a near-uniform logarithmic distribution (c), offering a wider range than typical phantoms. The fractional area covered by objects is right-skewed, prioritizing samples with lower object density while still including high-density cases (d).
+          </p>
+
+          <figure class="image">
+            <img src="static/images/DifferentShapes.jpg" alt="Example inclusion geometries and conductivity distributions"/>
+            <figcaption class="has-text-centered is-size-7 mt-2">
+              <strong>Figure:</strong> Example inclusion geometries and conductivity distributions. Each domain shows unique configurations of shapes with varying sizes, orientations, arrangements, and conductivity values (color-coded).
+            </figcaption>
+          </figure>
+
+          <h4 class="title is-5"><strong>Samples of Dataset 1:</strong></h4>
+          <p>
+            Our framework procedurally generates EIT datasets with morphological diversity. Each sample represents a circular domain containing randomized inclusions of circles, triangles, rectangles, and ovals with heterogeneous sizes, orientations, and spatial distributions. Conductivity values <em>σ</em> follow a logarithmic distribution spanning multiple orders of magnitude, creating challenging physical scenarios. To accommodate different computational requirements, conductivity maps are generated at 256 × 256 pixel resolution and downsampled to 128 × 128, 64 × 64, and 32 × 32 resolutions. A PyTorch DataLoader integrates these datasets into deep learning workflows, while built-in circular masks exclude extraneous regions outside the EIT domain boundary, ensuring only relevant pixels are processed.
+          </p>
+
+          <h3 class="title is-4"><strong>Dataset 2: Circular Inclusions with Variations</strong></h3>
+          <p>
+            This dataset comprises 100,000 samples containing exclusively circular inclusions. Each circle is defined by its center coordinates <em>(x,y)</em> and radius, resulting in 3 DOF per inclusion. The number of circles per sample varies from 1-4, with their radii and conductivities sampled from user-defined distributions. This dataset focuses on parametric variations of circular shapes to facilitate targeted studies on the impact of inclusion size and conductivity on EIT reconstruction performance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Generated Datasets section -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{ameen2025simeit,
+  title={SimEIT: A Scalable Simulation Framework for Generating Large-Scale Electrical Impedance Tomography Datasets},
+  author={Ameen, Ayman A. and Mathis-Ullrich, Franziska and Kainz, Bernhard},
+  year={2025},
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <!-- <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
